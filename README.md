@@ -20,7 +20,6 @@ fundamental frequency of the resulting sound. Sonically, the feedback mechanism 
 fundamental frequency and its harmonics (frequencies at integer multiples of the fundamental). The
 energy decay factor (.996 in this case) models the slight dissipation in energy as the wave makes a
 roundtrip through the string.
-􀁸 The averaging operation: The averaging operation serves as a gentle low pass filter (which removes
-higher frequencies while allowing lower frequencies to pass, hence the name). Because it is in the path
-of the feedback, this has the effect of gradually attenuating the higher harmonics while keeping the
-lower ones, which corresponds closely with how actually plucked strings sound.
+
+The averaging operation: The averaging operation serves as a gentle low pass filter (which removes
+higher frequencies while allowing lower frequencies to pass, hence the name). Because it is in the path of the feedback, this has the effect of gradually attenuating the higher harmonics while keeping the lower ones, which corresponds closely with how actually plucked strings sound.
