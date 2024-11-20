@@ -1,4 +1,4 @@
-# GuitarHero
+## GuitarHero
 This project involves implementing two classes, GuitarString and Guitar37, to simulate a guitar using the Karplus-Strong algorithm for sound synthesis. By modeling string vibrations through a ring buffer and leveraging utility classes like StdAudio and StdDraw, the program allows users to pluck virtual guitar strings, producing realistic sound based on physical principles of string oscillation.
 
 When a guitar string is plucked, the string vibrates and creates sound. The length of the string determines its fundamental frequency of vibration. We model a guitar string by sampling its displacement (a real number between -1/2 and +1/2) at N equally spaced points (in time), where N equals the sampling rate (44,100) divided by the fundamental frequency (rounded to the nearest integer). We store these displacement values in a structure that we will refer to as a ring buffer.
